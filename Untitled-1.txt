@@ -1,1 +1,3 @@
-<?php
+
+                    Archivo Adjunto:
+                    <input type="file" name="archivo" id="archivo" accept=".jpg, .jpeg, .png"> <br>
