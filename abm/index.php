@@ -18,6 +18,8 @@ if ($_POST) {
     } else {
      echo "";
     }
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -69,6 +71,3 @@ if ($_POST) {
 </body>
 
 </html>
-$id = isset($_GET["id"]) && $_GET["id"] > 0? $_GET["id"] : "";
-<input type="text" id="txtNombre" name="txtNombre" class="form-control" required value="<?php echo isset($aClientes[$id]) ? $aClientes[$id]["nombre"] : "" ?>
-">

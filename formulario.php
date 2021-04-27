@@ -1,13 +1,13 @@
 <?php
 if ($_POST) {
-    $usuario = $_REQUEST["txtUsuario"];
-    $clave = $_REQUEST["txtClave"];
+$usuario = $_REQUEST["txtUsuario"];
+$clave = $_REQUEST["txtClave"];
     if($usuario !=""&& $clave != ""){
          header( "Location: accesoconfirmado.php");
          } else { 
              echo "acceso solo para usuarios";
         exit; }
-    }
+    }   
 ?>
 <!DOCTYPE html>
 <html lang="en">

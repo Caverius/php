@@ -16,6 +16,8 @@ file_put_contents("datos.txt",$contenido);
 }
 
 $aNotas = array (8,4,7,9,10);
-$msg = "Error al enviar el correo electronico";
+$msg = "Er";
+
+print_f($aNotas);
 print_f($msg);
 ?>
